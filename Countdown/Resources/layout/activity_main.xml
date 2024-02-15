@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="@string/default_days" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:textSize="80sp"    
+        android:gravity="center_horizontal"
+        android:id="@+id/textViewDays" />
+    <TextView
+        android:text="@string/default_event_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:id="@+id/textViewEvent" />
+    <RadioGroup
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:id="@+id/radioGroup1">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:text="@string/radiobutton_topmost_text"
+            android:id="@+id/radioButtonTopmost" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:text="@string/radiobutton_middle_text"
+            android:id="@+id/radioButtonMiddle" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:text="@string/radiobutton_bottommost_text"
+            android:id="@+id/radioButtonBottomMost" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"            
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:text="@string/radiobutton_other_text"
+            android:id="@+id/radioButtonOther" />
+    </RadioGroup>
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:inputType="date"
+        android:textAlignment="center"
+        android:text="@string/hint_text"
+        android:textColor="#a9a9a9"        
+        android:id="@+id/textInputCustomDate" />
+    <Button
+        android:text="@string/default_button_count_text"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:backgroundTint="@color/material_blue_grey_800"
+        android:id="@+id/buttonCount" />
+    
+</LinearLayout>

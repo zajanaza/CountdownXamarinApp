@@ -1,0 +1,50 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jana\\moje\\programovani\\v\u00FDuka\\Xamarin\\Countdown\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{581B3574-014D-4F12-8438-69F08DD684CD}|Countdown\\Countdown.csproj|C:\\Users\\Jana\\moje\\programovani\\v\u00FDuka\\Xamarin\\Countdown\\countdown\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
+      "RelativeMoniker": "D:0:0:{581B3574-014D-4F12-8438-69F08DD684CD}|Countdown\\Countdown.csproj|solutionrelative:countdown\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "activity_main.xml",
+              "DocumentMoniker": "C:\\Users\\Jana\\moje\\programovani\\v\u00FDuka\\Xamarin\\Countdown\\Countdown\\Resources\\layout\\activity_main.xml",
+              "RelativeDocumentMoniker": "Countdown\\Resources\\layout\\activity_main.xml",
+              "ToolTip": "C:\\Users\\Jana\\moje\\programovani\\v\u00FDuka\\Xamarin\\Countdown\\Countdown\\Resources\\layout\\activity_main.xml",
+              "RelativeToolTip": "Countdown\\Resources\\layout\\activity_main.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2023-12-16T12:13:34.089Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 183,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
